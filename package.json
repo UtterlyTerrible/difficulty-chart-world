@@ -31,7 +31,9 @@
     "@rbxts/centurion": "^1.0.1",
     "@rbxts/centurion-ui": "^1.0.8",
     "@rbxts/charm": "^0.10.0",
+    "@rbxts/charm-sync": "^0.3.0",
     "@rbxts/jest": "^0.1.0",
+    "@rbxts/jest-globals": "^0.1.0",
     "@rbxts/lapis": "^0.3.8",
     "@rbxts/vide": "^0.5.7",
     "@rbxts/vide-charm": "^0.3.0"
