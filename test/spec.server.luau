@@ -10,8 +10,8 @@ local status, result = Jest.runCLI(script, {
 	ci = false,
 	setupFiles = { script.Parent.setup },
 }, {
-	ReplicatedStorage.Shared.__tests__,
-	ReplicatedStorage.Client.__tests__,
+	ReplicatedStorage.TS.__tests__,
+	ReplicatedStorage.TS.__tests__,
 	ServerScriptService.TS.__tests__,
 }):awaitStatus()
 
