@@ -2,6 +2,7 @@ _G.NOCOLOR = true
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServerScriptService = game:GetService("ServerScriptService")
+local StarterPlayer = game:GetService("StarterPlayer")
 
 local Jest = require(ReplicatedStorage.rbxts_include.node_modules["@rbxts"].jest.src)
 
