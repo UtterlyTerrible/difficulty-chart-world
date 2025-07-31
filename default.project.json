@@ -4,6 +4,7 @@
 		"**/package.json",
 		"**/tsconfig.json"
 	],
+	"emitLegacyScripts": false,
 	"tree": {
 		"$className": "DataModel",
 		"ServerScriptService": {
