@@ -1,8 +1,15 @@
 import { Networking } from "@flamework/networking";
+import { SyncPayload } from "@rbxts/charm-sync";
+import { GlobalAtoms } from "./store/sync/atoms";
 
-interface ClientToServerEvents {}
+interface ClientToServerEvents {
+	init(): void;
+	tap(): void;
+}
 
-interface ServerToClientEvents {}
+interface ServerToClientEvents {
+	sync(payload: SyncPayload<GlobalAtoms>): void;
+}
 
 interface ClientToServerFunctions {}
 
